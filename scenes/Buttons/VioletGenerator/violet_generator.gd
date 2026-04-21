@@ -14,6 +14,7 @@ func _process(delta: float) -> void:
 
 func _on_button_down() -> void:
 	_generate_block()
+	
 
 func _generate_block():
 	var nueva_escena = escena.instantiate()
